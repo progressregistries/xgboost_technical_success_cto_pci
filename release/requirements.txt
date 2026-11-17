@@ -1,0 +1,8 @@
+# Python 3.14.5
+# Includes dependencies required by the three imported packages.
+numpy==2.4.6
+pandas==3.0.3
+python-dateutil==2.9.0.post0
+scipy==1.17.1
+six==1.17.0
+xgboost==3.2.0

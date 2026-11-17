@@ -1,0 +1,59 @@
+{
+  "inputs": [
+    {
+      "name": "blunt_stump",
+      "units": "indicator",
+      "allowed_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "occlusion_length_mm",
+      "units": "mm",
+      "allowed_range": [
+        1,
+        200
+      ]
+    },
+    {
+      "name": "bend_gt45",
+      "units": "indicator",
+      "allowed_values": [
+        0,
+        1
+      ]
+    },
+    {
+      "name": "calcification",
+      "units": "angiographic grade",
+      "allowed_values": [
+        "none",
+        "mild",
+        "moderate",
+        "severe"
+      ]
+    },
+    {
+      "name": "good_distal_landing_zone",
+      "units": "indicator",
+      "allowed_values": [
+        0,
+        1
+      ]
+    }
+  ],
+  "length_standardization": {
+    "mean_mm": 31.598853868194844,
+    "scale_mm": 20.733129747370846
+  },
+  "training_imputation_documentation_only": {
+    "occlusion_length_mean_mm": 31.598853868194844,
+    "binary_modes_clinical_coding": {
+      "blunt_stump": 1,
+      "bend_gt45": 0,
+      "good_distal_landing_zone": 1
+    },
+    "policy": "Documentation only. Prediction refuses missing inputs; no imputation is performed."
+  }
+}
