@@ -86,11 +86,5 @@ the expected benefit of PCI compared with other treatments. Interpret it with
 clinical assessment and the study's reported validation limitations.
 
 ## License and citation
-
-**License pending selection by the model owner.** No open-source license or
-additional reuse permission is granted by this draft. The owner must select and
-include the license before public release.
-
 Cite the accompanying PROGRESS-CTO five-predictor XGBoost technical-success
-manuscript: **DOI: [to be assigned]**. Replace this placeholder with the final
-publication citation when available.
+manuscript: **DOI: 10.5281/zenodo.24317122**. 
